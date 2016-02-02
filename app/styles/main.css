@@ -1,0 +1,238 @@
+body, html {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.title {
+    margin:40px 0;
+    font-size: 2em;
+}
+.title span {
+    background-color: rgba(0, 0, 0, .65);
+}
+.img-background {
+    display: table;
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: #f39c12;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-image: url(../images/home-bg.jpg);
+}
+.desk-map {
+    height: 100%;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.tab-pane#map {
+    background-color: #2c3e50;
+}
+.signin-desk-number {
+    color: #333;
+}
+.desk-map {
+    padding-top: 45px;
+}
+.table {
+    color: #333;
+}
+.flex-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+.flex-company {
+    font-size: 16px;
+    color:#F8B143;
+}
+.flex-interest {
+    margin-top: 5px;
+}
+.footer {
+    bottom: 0;
+    right: 0;
+    padding-top: 19px;
+    width: 100%;
+    text-align: center;
+}
+.logo-big {
+    padding-top: 20px;
+    width: 250px;
+}
+.btn-primary-off {
+    color: #357ebd;
+    background-color: #fff;
+    border-color: #357ebd;
+    transition: background-color .5s, color .3s;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+.btn-primary-off:hover {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+.desk-map div[id*='desk'] {
+    height: 75px;
+    overflow-y:hidden;
+}
+.title-big {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.room1, .room2, .kitchen {
+    display: block;
+    position: fixed;
+    background-color: #efefef;
+    height: 20px;
+    text-align: center;
+    color: #333;
+    z-index: 1001;
+}
+.kitchen {
+    bottom: 0;
+    width: 100px;
+    left: 50%;
+    margin-left: -50px;
+}
+.room1 {
+    top: 0;
+    left: 50%;
+    margin-left: -650px;
+    width: 400px;
+}
+.room2 {
+    top: 0;
+    right: 50%;
+    margin-right: -650px;
+    width: 400px;
+}
+.form-checkin {
+    margin-top: 40px;
+}
+table {
+    table-layout:fixed;
+    overflow-y:hidden;
+    word-wrap:break-word;
+}
+.table-bordered > tbody > tr > td {
+    border: 3px solid #aaa;
+}
+.btn-big {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.logo-intro {
+    width: 100px;
+}
+@media (min-width: 600px) {
+    .title {
+        margin:20px 0;
+        font-size: 4em;
+    }
+    .img-background {
+        padding: 80px 0;
+    }
+    .logo-intro {
+        width: 200px;
+    }
+    .btn-huge {
+        margin-top: 90px;
+        padding:25px 30px;
+        font-size: 4em;
+        width: 580px;
+    }
+    .btn-big {
+        margin-top: 90px;
+        padding:25px 30px;
+        font-size: 2em;
+    }
+    .input-huge {
+        height: 56px;
+        padding: 15px 21px;
+        font-size: 22px;
+        line-height: 1.5;
+        border-radius: 10px;
+    }
+    .logo-techhub {
+        position:absolute;
+        left:50%;
+        top:150px;
+        margin-left: -75px;
+        z-index:1001;
+        width: 150px;
+    }
+    .floor {
+        position:absolute;
+        left:50%;
+        top:250px;
+        text-align: center;
+        margin-left: -75px;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    .logo-campus {
+        position:absolute;
+        left:50%;
+        top:350px;
+        margin-left: -65px;
+        z-index:1001;
+        width: 130px;
+    }
+    .neighbour {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -100px;
+    }
+    .displayUrl {
+        margin-top: 20px;
+        font-size: 20px;
+        text-transform: none;
+    }
+}
+@media (min-width: 1600px) {
+    .desk-map div[id*='desk'] {
+        height: 95px;
+        overflow-y:hidden;
+    }
+    .logo-techhub {
+        position:absolute;
+        left:50%;
+        top:15%;
+        margin-left: -100px;
+        z-index:1001;
+        width: 200px;
+    }
+    .floor {
+        position:absolute;
+        left:50%;
+        top:40%;
+        text-align: center;
+        margin-left: -105px;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+    .logo-campus {
+        position:absolute;
+        left:50%;
+        top:68%;
+        margin-left: -80px;
+        z-index:1001;
+        width: 160px;
+    }
+}
